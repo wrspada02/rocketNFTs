@@ -1,0 +1,105 @@
+
+    .footer {
+        background-color: var(--backgroundFooter);
+    }
+
+    .footer__details{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__details--button{
+        background-color: var(--backgroundColorSalmon);
+        border: none;
+        padding: 1.2em;
+    }
+
+    .footer__form--title{
+        font-family: var(--fontMontSerrat);
+        color: var(--colorFontWhite);
+        font-size: 1.5em;
+    }
+
+    .form--title__salmon{
+        color: var(--paragrapherSalmon);
+    }
+
+    .form__container{
+        padding: 2em 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__grid{
+        display: grid;
+        grid-template-columns: 30% 64%;
+        grid-template-rows: auto;
+        border-top: 1px solid var(--colorBorder);
+        border-bottom: 1px solid var(--colorBorder);
+    }
+
+    .footer__form{
+        padding-top: 2rem;
+        grid-column: 1/1;
+        grid-row: 1/1;
+        border-right: 1px solid var(--colorBorder);
+    }
+
+    .form__list{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        grid-column: 2/2;
+        grid-row: 1/1;
+    }
+
+    .footer__input--form{
+        background-color: var(--backgroundButtonForm);
+    }
+
+    .footer__input--form, .footer__input--button{
+        border: none;
+        height: 4em;
+    }
+
+    .footer__input--button{
+        background-color: #FFF;
+        padding: 1.5em;
+    }
+
+    .form__list--item{
+        display: flex;
+        flex-direction: column;
+        font-family: var(--fontMontSerrat);
+        color: var(--colorFontWhite);
+        font-weight: bold;
+    }
+
+    .form__list--span{
+        margin-bottom: 2em;
+    }
+
+    .final__footer--container{
+        padding: 2em 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .url__site{
+        font-family: var(--fontMontSerrat);
+        color: var(--colorFontBlack);
+        font-size: 1em;
+    }
+
+    .social__container{
+        display: flex;
+        align-items: center;
+    }
+
+    .social__itens{
+        margin: 0 1em;
+    }

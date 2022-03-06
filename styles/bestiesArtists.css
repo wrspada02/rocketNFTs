@@ -1,0 +1,55 @@
+
+    .besties__artists{
+        padding-top: 5em;
+        background-color: var(--backgroundStatistics);
+        font-family: var(--fontMontSerrat);
+    }
+
+    .besties__artists--title{
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .artists__list{
+        display: grid;
+        grid-template-columns: 31.3% 31.3% 31.3%;
+        grid-template-rows: auto;
+        grid-gap: 2.2rem;
+    }
+
+    .artists__list--item{
+        padding: 0.5em 0.5em;
+        background-color: var(--backgroundColorCardArtists);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #list--item__different{
+        background-color: var(--backgroundColorSalmon);
+    }
+
+    .artists__list--firstRow{
+        display: block;
+        color: var(--colorFontWhite);
+    }
+
+    .artists__list--secondRow{
+        display: block;
+        color: var(--paragrapherSalmon);
+    }
+
+    .seeAll__container{
+        padding-top: 4em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2em;
+    }
+
+    .seeAll_artists{
+        font-family: var(--fontMontSerrat);
+        margin-right: 2em;
+        text-align: center;
+        color: var(--colorFontWhite);
+    }

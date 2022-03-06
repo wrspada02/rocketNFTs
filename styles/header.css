@@ -1,0 +1,29 @@
+
+    .start__page--header, .start__page--header_list, .start__page--header_button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .start__page--header_item{
+        margin: 0 1.5em;
+        color: var(--colorFontWhite);
+        font-family: var(--fontMontSerrat), sans-serif;
+        font-size: 1em;
+    }
+
+    .start__page--header_button{
+        padding: 1em 1em;
+        background-color: var(--backgroundColorWhite);
+        border: none;
+        border-radius: 0.5em;
+    }
+
+    .start__page--header_button--title{
+        font-family: var(--fontMontSerrat), sans-serif;
+        color: var(--colorFontBlack);
+        font-size: 1em;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 1em;
+    }

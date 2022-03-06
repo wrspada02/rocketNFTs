@@ -1,0 +1,60 @@
+
+    .star__week{
+        background-color: var(--backgroundStatistics);
+        
+    }
+
+    .__border--item{
+        border-right: 1px solid var(--colorFontBlack);
+        padding-right: 15%;
+    }
+
+    .star__week--title{
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        color: var(--colorFontWhite);
+    }
+
+    .salmon__paragraphy{
+        color: var(--paragrapherSalmon);
+    }
+
+    .start__week--list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .start__week--item{
+        width: 34%;
+    }
+
+    .item__row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item__row--title, .item__row--title_second, .item__row--price{
+        font-family: var(--fontMontSerrat);
+        padding: 1em 0;
+    }
+
+    .item__row--title{
+        color: var(--colorFontWhite);
+        font-size: 2em;
+    }
+
+    .item__row--title_second{
+        color: var(--colorFontBlack);
+    }
+
+    .item__row--price{
+        color: var(--paragrapherSalmon);
+    }
+
+    .week__item--image{
+        width: 100%;
+    }

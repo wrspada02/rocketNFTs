@@ -1,0 +1,25 @@
+
+    :root{
+        --fontMontSerrat : 'Montserrat';
+        --colorFontWhite : #FFF;
+        --colorFontBlack : #000;
+        --backgroundColorWhite : #FFF;
+        --paragrapherSalmon : #FF5B50;
+        --backgroundStatistics : rgba(0, 0, 0, 0.925);
+        --colorFontBlack : #5A5757;
+        --backgroundColorCardArtists : #252525;
+        --backgroundColorSalmon : #FF5B50;
+        --backgroundFooter : #292727;
+        --backgroundButtonForm : #0D0D0D;
+        --colorBorder : #5A5757;
+    }
+
+    .container{
+        padding: 0 3%;
+    }
+
+    .start__page{
+        padding-top : 1em ;
+        padding-bottom : 1em;
+        background: url(../assets/background.png);
+    }
